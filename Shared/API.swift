@@ -6,10 +6,14 @@ typealias APICallback = (Result<API.Photo, Error>) -> Void
 class API {
   static let shared = API()
   var urlSession = URLSession.shared
-  let baseUrl = URL(string: "https://d7c7-75-31-21-186.ngrok.io")
+  let baseUrl = URL(string: "http://localhost:3000")
 
   struct Photo: Codable {
-    let image: String
+    let id: Int
+    let created_at: Date
+    let updated_at: Date
+    let url: URL
+    let image_url: URL
   }
 
   func uploadPhoto(photo: UIImage, then handler: @escaping APICallback) {
@@ -18,25 +22,23 @@ class API {
       handler(.failure("Png Data Error" as Error))
       return
     }
-    let photo = Photo(image: photoData.base64EncodedString(options: .lineLength64Characters))
-    do {
-      let json = try JSONEncoder().encode(photo)
-    } catch { handler(.failure(error)) }
-    sendPostRequest(to: "/photos", json: json, then: handler)
+    let body = MultipartFormData()
+    body.append(photoData, withName: "photo[image]", fileName: "\(UUID().uuidString).png", mimeType: "image/png")
+    sendPostRequest(to: "/photos", body: body, then: handler)
   }
 
-  private func sendPostRequest(to: String, json: String, then handler: @escaping APICallback) {
+  private func sendPostRequest(to: String, body: MultipartFormData, then handler: @escaping APICallback) {
     guard var url = baseUrl else { return }
     url.appendPathComponent(to)
-    if let body = json.data(using: .utf8) {
-    AF.upload(body, to: url).responseDecodable(of: Photo.self) { response in
+    AF.upload(multipartFormData: body, to: url).responseDecodable(of: Photo.self) { response in
       if let photo = response.value {
+        debugPrint(photo)
         handler(.success(photo))
       } else if let error = response.error {
+        print(response.debugDescription)
         handler(.failure(error))
       }
     }
-  }
   }
 
 }
