@@ -1,0 +1,6 @@
+framework module Pods_ManyLittles__iOS_ {
+  umbrella header "Pods-ManyLittles (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

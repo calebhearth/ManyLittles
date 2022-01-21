@@ -13,15 +13,38 @@
 		3C3DFD7B276EB151000AB0ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD69276EB151000AB0ED /* ContentView.swift */; };
 		3C3DFD7C276EB151000AB0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DFD6A276EB151000AB0ED /* Assets.xcassets */; };
 		3C3DFD7D276EB151000AB0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3DFD6A276EB151000AB0ED /* Assets.xcassets */; };
+		3C3DFD87276EBE00000AB0ED /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD86276EBE00000AB0ED /* ImageDetail.swift */; };
+		3C3DFD88276EBE00000AB0ED /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD86276EBE00000AB0ED /* ImageDetail.swift */; };
+		3C3DFD9027718B14000AB0ED /* AddPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD8F27718B14000AB0ED /* AddPhoto.swift */; };
+		3C3DFD9127718B14000AB0ED /* AddPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD8F27718B14000AB0ED /* AddPhoto.swift */; };
+		3C3DFD9327718BD0000AB0ED /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD9227718BD0000AB0ED /* ImagePicker.swift */; };
+		3C3DFD9427718BD0000AB0ED /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD9227718BD0000AB0ED /* ImagePicker.swift */; };
+		3C3DFD962774E559000AB0ED /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD952774E559000AB0ED /* API.swift */; };
+		3C3DFD972774E559000AB0ED /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD952774E559000AB0ED /* API.swift */; };
+		3C3DFD992774EB9F000AB0ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD982774EB9F000AB0ED /* Extensions.swift */; };
+		3C3DFD9A2774EB9F000AB0ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD982774EB9F000AB0ED /* Extensions.swift */; };
+		9B658D9F00055A4888FFAD63 /* Pods_ManyLittles__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A7AD344BD98ED5DDAE6BC /* Pods_ManyLittles__iOS_.framework */; };
+		A1E431229A8CB291DA8C0303 /* Pods_ManyLittles__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D36E2FAD05EF6DDA9784 /* Pods_ManyLittles__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171A7AD344BD98ED5DDAE6BC /* Pods_ManyLittles__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManyLittles__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		233D7DF650B44C9B3DED1CC5 /* Pods-ManyLittles (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyLittles (iOS).release.xcconfig"; path = "Target Support Files/Pods-ManyLittles (iOS)/Pods-ManyLittles (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		3C3DFD68276EB151000AB0ED /* ManyLittlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyLittlesApp.swift; sourceTree = "<group>"; };
 		3C3DFD69276EB151000AB0ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C3DFD6A276EB151000AB0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C3DFD6F276EB151000AB0ED /* ManyLittles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManyLittles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3DFD75276EB151000AB0ED /* ManyLittles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManyLittles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3DFD77276EB151000AB0ED /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3C3DFD86276EBE00000AB0ED /* ImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+		3C3DFD8F27718B14000AB0ED /* AddPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhoto.swift; sourceTree = "<group>"; };
+		3C3DFD9227718BD0000AB0ED /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3C3DFD952774E559000AB0ED /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3C3DFD982774EB9F000AB0ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3E16D36E2FAD05EF6DDA9784 /* Pods_ManyLittles__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManyLittles__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517213624E5B753DEDCF28EE /* Pods-ManyLittles (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyLittles (macOS).release.xcconfig"; path = "Target Support Files/Pods-ManyLittles (macOS)/Pods-ManyLittles (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		DA82061F402410B93CB3BA56 /* Pods-ManyLittles (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyLittles (iOS).debug.xcconfig"; path = "Target Support Files/Pods-ManyLittles (iOS)/Pods-ManyLittles (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F1E63DF79E1AD9D2CADE797C /* Pods-ManyLittles (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyLittles (macOS).debug.xcconfig"; path = "Target Support Files/Pods-ManyLittles (macOS)/Pods-ManyLittles (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B658D9F00055A4888FFAD63 /* Pods_ManyLittles__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E431229A8CB291DA8C0303 /* Pods_ManyLittles__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +73,8 @@
 				3C3DFD67276EB151000AB0ED /* Shared */,
 				3C3DFD76276EB151000AB0ED /* macOS */,
 				3C3DFD70276EB151000AB0ED /* Products */,
+				AF41DC50B528628E474AF452 /* Pods */,
+				66937FE2D08D806C3637EF6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +83,12 @@
 			children = (
 				3C3DFD68276EB151000AB0ED /* ManyLittlesApp.swift */,
 				3C3DFD69276EB151000AB0ED /* ContentView.swift */,
+				3C3DFD952774E559000AB0ED /* API.swift */,
+				3C3DFD86276EBE00000AB0ED /* ImageDetail.swift */,
+				3C3DFD8F27718B14000AB0ED /* AddPhoto.swift */,
+				3C3DFD9227718BD0000AB0ED /* ImagePicker.swift */,
 				3C3DFD6A276EB151000AB0ED /* Assets.xcassets */,
+				3C3DFD982774EB9F000AB0ED /* Extensions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -78,6 +110,26 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		66937FE2D08D806C3637EF6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				171A7AD344BD98ED5DDAE6BC /* Pods_ManyLittles__iOS_.framework */,
+				3E16D36E2FAD05EF6DDA9784 /* Pods_ManyLittles__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF41DC50B528628E474AF452 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA82061F402410B93CB3BA56 /* Pods-ManyLittles (iOS).debug.xcconfig */,
+				233D7DF650B44C9B3DED1CC5 /* Pods-ManyLittles (iOS).release.xcconfig */,
+				F1E63DF79E1AD9D2CADE797C /* Pods-ManyLittles (macOS).debug.xcconfig */,
+				517213624E5B753DEDCF28EE /* Pods-ManyLittles (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3DFD80276EB151000AB0ED /* Build configuration list for PBXNativeTarget "ManyLittles (iOS)" */;
 			buildPhases = (
+				578FBD8007DADE818A6C0583 /* [CP] Check Pods Manifest.lock */,
 				3C3DFD6B276EB151000AB0ED /* Sources */,
 				3C3DFD6C276EB151000AB0ED /* Frameworks */,
 				3C3DFD6D276EB151000AB0ED /* Resources */,
+				32C2B4B539696C09E2E0291E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3DFD83276EB151000AB0ED /* Build configuration list for PBXNativeTarget "ManyLittles (macOS)" */;
 			buildPhases = (
+				42855DC6A5776401A79EC066 /* [CP] Check Pods Manifest.lock */,
 				3C3DFD71276EB151000AB0ED /* Sources */,
 				3C3DFD72276EB151000AB0ED /* Frameworks */,
 				3C3DFD73276EB151000AB0ED /* Resources */,
+				773AE9C91F635B8011312B64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,7 +179,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					3C3DFD6E276EB151000AB0ED = {
 						CreatedOnToolsVersion = 13.1;
@@ -171,13 +227,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32C2B4B539696C09E2E0291E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManyLittles (iOS)/Pods-ManyLittles (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManyLittles (iOS)/Pods-ManyLittles (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManyLittles (iOS)/Pods-ManyLittles (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42855DC6A5776401A79EC066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManyLittles (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578FBD8007DADE818A6C0583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManyLittles (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773AE9C91F635B8011312B64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManyLittles (macOS)/Pods-ManyLittles (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManyLittles (macOS)/Pods-ManyLittles (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManyLittles (macOS)/Pods-ManyLittles (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C3DFD6B276EB151000AB0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3DFD9027718B14000AB0ED /* AddPhoto.swift in Sources */,
+				3C3DFD87276EBE00000AB0ED /* ImageDetail.swift in Sources */,
+				3C3DFD9327718BD0000AB0ED /* ImagePicker.swift in Sources */,
 				3C3DFD7A276EB151000AB0ED /* ContentView.swift in Sources */,
+				3C3DFD962774E559000AB0ED /* API.swift in Sources */,
 				3C3DFD78276EB151000AB0ED /* ManyLittlesApp.swift in Sources */,
+				3C3DFD992774EB9F000AB0ED /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3DFD9127718B14000AB0ED /* AddPhoto.swift in Sources */,
+				3C3DFD88276EBE00000AB0ED /* ImageDetail.swift in Sources */,
+				3C3DFD9427718BD0000AB0ED /* ImagePicker.swift in Sources */,
 				3C3DFD7B276EB151000AB0ED /* ContentView.swift in Sources */,
+				3C3DFD972774E559000AB0ED /* API.swift in Sources */,
 				3C3DFD79276EB151000AB0ED /* ManyLittlesApp.swift in Sources */,
+				3C3DFD9A2774EB9F000AB0ED /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +453,7 @@
 		};
 		3C3DFD81276EB151000AB0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA82061F402410B93CB3BA56 /* Pods-ManyLittles (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,12 +462,13 @@
 				DEVELOPMENT_TEAM = S73CZ4B22A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ManyLittles--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +485,7 @@
 		};
 		3C3DFD82276EB151000AB0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233D7DF650B44C9B3DED1CC5 /* Pods-ManyLittles (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,12 +494,13 @@
 				DEVELOPMENT_TEAM = S73CZ4B22A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ManyLittles--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,10 +518,12 @@
 		};
 		3C3DFD84276EB151000AB0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E63DF79E1AD9D2CADE797C /* Pods-ManyLittles (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -395,10 +548,12 @@
 		};
 		3C3DFD85276EB151000AB0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517213624E5B753DEDCF28EE /* Pods-ManyLittles (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
