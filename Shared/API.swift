@@ -30,7 +30,11 @@ class API {
   private func sendPostRequest(to: String, body: MultipartFormData, then handler: @escaping APICallback) {
     guard var url = baseUrl else { return }
     url.appendPathComponent(to)
-    AF.upload(multipartFormData: body, to: url).responseDecodable(of: Photo.self) { response in
+    let decoder = JSONDecoder()
+    decoder.dateDecodingStrategy = .formatted(DateFormatter.iso8601Full)
+    AF
+      .upload(multipartFormData: body, to: url)
+      .responseDecodable(of: Photo.self, decoder: decoder) { response in
       if let photo = response.value {
         debugPrint(photo)
         handler(.success(photo))
