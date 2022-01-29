@@ -1,20 +1,14 @@
 import Alamofire
 import Foundation
 
-typealias APICallback = (Result<API.Photo, Error>) -> Void
+typealias APICallback = (Result<Photo, Error>) -> Void
+
 
 class API {
   static let shared = API()
   var urlSession = URLSession.shared
   let baseUrl = URL(string: "http://localhost:3000")
 
-  struct Photo: Codable {
-    let id: Int
-    let created_at: Date
-    let updated_at: Date
-    let url: URL
-    let image_url: URL
-  }
 
   func uploadPhoto(photo: UIImage, then handler: @escaping APICallback) {
     guard let photoData = photo.pngData()

@@ -9,10 +9,23 @@ import SwiftUI
 
 @main
 struct ManyLittlesApp: App {
-  let images = ["IMG_0898", "IMG_0905", "IMG_1220", "IMG_1260", "IMG_1322", "IMG_1722", "IMG_0901", "IMG_1120", "IMG_1226", "IMG_1321", "IMG_1357", "IMG_1723"]
-    var body: some Scene {
-        WindowGroup {
-          ContentView(images: images)
-        }
+  let appState = AppState(photos: [
+    .init(named: "IMG_0898"),
+    .init(named: "IMG_0905"),
+    .init(named: "IMG_1220"),
+    .init(named: "IMG_1260"),
+    .init(named: "IMG_1722"),
+    .init(named: "IMG_0901"),
+    .init(named: "IMG_1120"),
+    .init(named: "IMG_1226"),
+    .init(named: "IMG_1321"),
+    .init(named: "IMG_1357"),
+    .init(named: "IMG_1723"),
+  ])
+
+  var body: some Scene {
+    return WindowGroup {
+      Hexagon()
     }
+  }
 }

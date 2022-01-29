@@ -132,6 +132,8 @@
 		362724979E6AA0205548A7C72A17278C /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		3787680390A71D6950BAA58B7EB0E59D /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		39D10B06EE22D23FDE97F046DA2050A8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		3C714AB9279CFFBE00635618 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		3C714ABA279D00F200635618 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ring.swift; path = ../Shared/Ring.swift; sourceTree = "<group>"; };
 		43B960F76AA92DBFF5A0E26E87B90754 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		4DEA1D4C54DD014811B1628A17C7D16F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		533B344E132BAFF38A4966F07039819F /* Alamofire-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-iOS-dummy.m"; sourceTree = "<group>"; };
@@ -366,6 +368,8 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				3C714AB9279CFFBE00635618 /* File.swift */,
+				3C714ABA279D00F200635618 /* Ring.swift */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6EFB174C92A99F449D96508D19BFE160 /* Frameworks */,
 				9F4B67447122FC6BA6080EAA9B88A719 /* Pods */,

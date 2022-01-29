@@ -23,6 +23,10 @@
 		3C3DFD972774E559000AB0ED /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD952774E559000AB0ED /* API.swift */; };
 		3C3DFD992774EB9F000AB0ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD982774EB9F000AB0ED /* Extensions.swift */; };
 		3C3DFD9A2774EB9F000AB0ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3DFD982774EB9F000AB0ED /* Extensions.swift */; };
+		3C655319279DC0BA006D5163 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C655318279DC0BA006D5163 /* Hexagon.swift */; };
+		3C65531A279DC0BA006D5163 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C655318279DC0BA006D5163 /* Hexagon.swift */; };
+		3C714A90279B9A9300635618 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C714A8F279B9A9300635618 /* AppState.swift */; };
+		3C714A91279B9A9300635618 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C714A8F279B9A9300635618 /* AppState.swift */; };
 		9B658D9F00055A4888FFAD63 /* Pods_ManyLittles__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171A7AD344BD98ED5DDAE6BC /* Pods_ManyLittles__iOS_.framework */; };
 		A1E431229A8CB291DA8C0303 /* Pods_ManyLittles__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D36E2FAD05EF6DDA9784 /* Pods_ManyLittles__macOS_.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +45,8 @@
 		3C3DFD9227718BD0000AB0ED /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3C3DFD952774E559000AB0ED /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		3C3DFD982774EB9F000AB0ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3C655318279DC0BA006D5163 /* Hexagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		3C714A8F279B9A9300635618 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		3E16D36E2FAD05EF6DDA9784 /* Pods_ManyLittles__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManyLittles__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		517213624E5B753DEDCF28EE /* Pods-ManyLittles (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyLittles (macOS).release.xcconfig"; path = "Target Support Files/Pods-ManyLittles (macOS)/Pods-ManyLittles (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		DA82061F402410B93CB3BA56 /* Pods-ManyLittles (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManyLittles (iOS).debug.xcconfig"; path = "Target Support Files/Pods-ManyLittles (iOS)/Pods-ManyLittles (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 				3C3DFD952774E559000AB0ED /* API.swift */,
 				3C3DFD86276EBE00000AB0ED /* ImageDetail.swift */,
 				3C3DFD8F27718B14000AB0ED /* AddPhoto.swift */,
+				3C655318279DC0BA006D5163 /* Hexagon.swift */,
+				3C714A8F279B9A9300635618 /* AppState.swift */,
 				3C3DFD9227718BD0000AB0ED /* ImagePicker.swift */,
 				3C3DFD6A276EB151000AB0ED /* Assets.xcassets */,
 				3C3DFD982774EB9F000AB0ED /* Extensions.swift */,
@@ -316,6 +324,8 @@
 				3C3DFD9027718B14000AB0ED /* AddPhoto.swift in Sources */,
 				3C3DFD87276EBE00000AB0ED /* ImageDetail.swift in Sources */,
 				3C3DFD9327718BD0000AB0ED /* ImagePicker.swift in Sources */,
+				3C714A90279B9A9300635618 /* AppState.swift in Sources */,
+				3C655319279DC0BA006D5163 /* Hexagon.swift in Sources */,
 				3C3DFD7A276EB151000AB0ED /* ContentView.swift in Sources */,
 				3C3DFD962774E559000AB0ED /* API.swift in Sources */,
 				3C3DFD78276EB151000AB0ED /* ManyLittlesApp.swift in Sources */,
@@ -330,6 +340,8 @@
 				3C3DFD9127718B14000AB0ED /* AddPhoto.swift in Sources */,
 				3C3DFD88276EBE00000AB0ED /* ImageDetail.swift in Sources */,
 				3C3DFD9427718BD0000AB0ED /* ImagePicker.swift in Sources */,
+				3C714A91279B9A9300635618 /* AppState.swift in Sources */,
+				3C65531A279DC0BA006D5163 /* Hexagon.swift in Sources */,
 				3C3DFD7B276EB151000AB0ED /* ContentView.swift in Sources */,
 				3C3DFD972774E559000AB0ED /* API.swift in Sources */,
 				3C3DFD79276EB151000AB0ED /* ManyLittlesApp.swift in Sources */,

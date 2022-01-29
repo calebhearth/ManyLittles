@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct ImageDetail: View {
-  let image: String
+  let photo: Photo
     var body: some View {
       VStack {
-        Image(image)
+        Image(uiImage: photo.uiImage)
           .resizable()
           .scaledToFit()
 
         HStack {
           Spacer()
           VStack(alignment: .leading) {
-            Text("Wednesday Dec 15, 2021")
+            Text(photo.createdAt.description)
               .font(.headline)
             Text("Uploaded by Caleb")
               .font(.subheadline)
@@ -42,6 +42,6 @@ struct ImageDetail: View {
 
 struct ImageDetail_Previews: PreviewProvider {
     static var previews: some View {
-      ImageDetail(image: "IMG_0901")
+      ImageDetail(photo: .init(named: "IMG_0901"))
     }
 }

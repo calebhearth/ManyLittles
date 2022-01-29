@@ -1,17 +1,18 @@
+import Combine
 import SwiftUI
-import AVKit
 
 struct ContentView: View {
-  let images: [String]
+  @ObservedObject var state: AppState
+
   var body: some View {
     NavigationView {
       ScrollView {
         //        VideoPlayer(player: AVPlayer(url:  Bundle.main.url(forResource: "IMG_1322", withExtension: "MOV")!))
         //          .scaledToFit()
-        ForEach(images, id: \.self) { image in
-          NavigationLink(destination: ImageDetail(image: image)) { Image(image)
-            .resizable()
-            .scaledToFill()
+        ForEach(state.photos) { photo in
+          NavigationLink(destination: ImageDetail(photo: photo)) { Image(uiImage: photo.uiImage)
+              .resizable()
+              .scaledToFill()
           }
         }
       }
@@ -35,7 +36,7 @@ struct ContentView: View {
           }
         }
         ToolbarItem(placement: .bottomBar) {
-          AddPhoto()
+          AddPhoto(state: state)
         }
       }
       .ignoresSafeArea()
@@ -45,7 +46,19 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    let images: [String] = ["IMG_0898", "IMG_0905", "IMG_1220", "IMG_1260", "IMG_1722", "IMG_0901", "IMG_1120", "IMG_1226", "IMG_1321", "IMG_1357", "IMG_1723"]
-    ContentView(images: images)
+    let appState = AppState(photos: [
+      .init(named: "IMG_0898"),
+      .init(named: "IMG_0905"),
+      .init(named: "IMG_1220"),
+      .init(named: "IMG_1260"),
+      .init(named: "IMG_1722"),
+      .init(named: "IMG_0901"),
+      .init(named: "IMG_1120"),
+      .init(named: "IMG_1226"),
+      .init(named: "IMG_1321"),
+      .init(named: "IMG_1357"),
+      .init(named: "IMG_1723"),
+    ])
+    ContentView(state: appState)
   }
 }
